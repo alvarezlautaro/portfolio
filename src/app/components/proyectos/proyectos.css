@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+#proyectos-section{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #F1F7ED;
+}
+
+.card-box{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border-color: black;
+    overflow: hidden;
+}
+
+.card-box img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-text{
+    font-family: "Inter", sans-serif;
+}
+
+.box-text {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.proyect-link{
+    font-family: "Inter", sans-serif;
+    color: black;
+}

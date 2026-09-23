@@ -1,0 +1,7 @@
+.footer-box{
+    background: #243E36;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+}

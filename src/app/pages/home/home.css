@@ -1,0 +1,31 @@
+main{
+    padding-top: 80px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    min-height: 650px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    min-height: 100vh;
+
+    background-color: #243E36;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hero-section{
+    width: 70%;
+}
+
+#proyectos-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+}
